@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
+
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 
 # Vendor properties
