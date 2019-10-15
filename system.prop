@@ -263,3 +263,7 @@ sys.thermal.data.path=/data/vendor/thermal/
 # network location provider is not functional
 ro.location.osnlp.package=com.google.android.gms
 ro.location.osnlp.region.package=
+
+# audio
+ro.vendor.audio.sdk.fluencetype=fluence
+
